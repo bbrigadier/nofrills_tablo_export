@@ -1,0 +1,8 @@
+# rotate weekly log ratate
+
+/nofrills_tablo_export/nfte.log {
+    daily
+    rotate 52
+    compress
+    delaycompress
+}
